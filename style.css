@@ -50,14 +50,33 @@ body {
 }
 
 .signup-image img {
-	max-height: 100vh;
+	max-height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
 
-.signup-image img {
-	width: 100%;
-	height: auto;
+.banner {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 40%;
+	height: 180px; /* adjust the height to your needs */
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	color: white;
+}
+
+.banner img {
+	max-width: 100px;
+	max-height: 100%;
+}
+
+.banner h2 {
+	margin-left: 9px;
+	font-size: 99px;
 }
 
 .signup-form-container {
