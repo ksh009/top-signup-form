@@ -205,9 +205,22 @@ body {
 	width: 30%;
 	height: 5rem;
 	font-family: sans-serif;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .col3 button:hover {
 	opacity: 90%;
 	color: var(--secondary-color);
+}
+
+.col3 p {
+	margin-top: 9px;
+	color: var(--main-text-color);
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.col3 p a {
+	color: var(--primary-color);
 }
