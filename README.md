@@ -1,6 +1,6 @@
 # The Odin Project
 
-# Project - Intermediate HTML and CSS
+# Project - Intermediate HTML and CSS - Signup form
 
 - This is the first project of the intermediate HTML and CSS section.
 - The instructions for the project can be found [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
