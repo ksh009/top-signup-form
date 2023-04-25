@@ -99,6 +99,7 @@ body {
 
 .col2 {
 	background-color: var(--secondary-text-color);
+	padding: 35px;
 }
 
 .col3 {
@@ -116,13 +117,13 @@ body {
 
 .footer-text {
 	font-size: 1.3rem;
-	color: #ffffff;
+	color: var(--secondary-text-color);
 	text-align: center;
 	font-family: sans-serif;
 }
 
 .footer-text a {
-	color: #ffffff;
+	color: var(--secondary-text-color);
 	text-decoration: underline;
 }
 
@@ -132,7 +133,7 @@ body {
 
 .col1 p {
 	font-style: normal;
-	color: black;
+	color: var(--main-text-color);
 	margin-top: 15px;
 	font-size: 2rem;
 }
@@ -140,3 +141,58 @@ body {
 .col1 p span {
 	font-style: italic;
 }
+
+.col2 h2 {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: var(--main-text-color);
+}
+
+.col2 form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	padding: 20px;
+}
+
+.form-left,
+.form-right {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+label {
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: var(--main-text-color);
+	font-family: sans-serif;
+}
+
+input {
+	padding: 10px;
+	font-size: 1.6rem;
+	border: 2px solid var(--input-focus-border-color);
+	border-radius: 5px;
+}
+
+input:focus {
+	border-color: var(--input-focus-border-color);
+	outline: none;
+}
+
+/* button {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+  } */
