@@ -24,7 +24,7 @@ html {
 body {
 	font-size: 1.6rem;
 	line-height: 1.5;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 	font-family: 'Norse Bold', sans-serif;
 }
 
@@ -38,49 +38,32 @@ body {
 	--box-shadow-color: #e8e9e9;
 }
 
-.signup-form {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+.container {
+	display: grid;
+	grid-template-columns: 0.7fr 1.3fr;
+	height: 100vh;
 }
 
-.signup-image {
-	width: 33%;
+.left {
+	background-image: url('./assets/img/halie-west-25xggax4bSA-unsplash.jpg');
+	background-size: cover;
+	background-position: center center;
 }
 
-.signup-image img {
-	max-height: 100%;
-	width: 100%;
-	object-fit: cover;
+.right {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 1rem;
 }
 
-.banner {
-	position: absolute;
-	top: 150px;
-	left: 0;
-	width: 33%;
-	height: 153px; /* adjust the height to your needs */
-	background-color: rgba(0, 0, 0, 0.5);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	color: white;
+.col1 {
+	background-color: #eee;
 }
 
-.banner img {
-	max-width: 90px;
-	max-height: 100%;
+.col2 {
+	background-color: #ddd;
 }
 
-.banner h2 {
-	margin-left: 9px;
-	font-size: 90px;
-}
-
-.signup-form-container {
-	width: 67%;
-	padding: 20px;
-	background-color: var(--input-error-border-color);
+.col3 {
+	background-color: #ccc;
 }
